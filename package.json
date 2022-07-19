@@ -1,5 +1,5 @@
 {
-  "name": "dummyjson",
+  "name": "dummy-json",
   "version": "0.1.0",
   "description": "This project generates random dummy json.",
   "main": "lib",
