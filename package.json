@@ -2,15 +2,22 @@
   "name": "this-is-dummy-json",
   "version": "0.1.0",
   "description": "This project generates random dummy json.",
-  "main": "lib",
-  "types": "lib",
+  "main": "lib/esm/index.js",
+  "types": "lib/types/index.d.ts",
   "files": [
     "lib/**/*"
   ],
+  "exports": {
+    "import": "./lib/esm/index.js",
+    "require": "./lib/cjs/index.js",
+    "default": "./lib/esm/index.js"
+  },
   "scripts": {
     "test": "jest -c jest.config.json",
     "precommit": "npm run lint:src && npm run test",
-    "build": "npm run precommit && tsc",
+    "build": "npm run precommit && npm run build:esm && npm run build:cjs",
+    "build:esm": "tsc -p tsconfig.json",
+    "build:cjs": "tsc -p tsconfig-cjs.json",
     "lint:src": "npx eslint -c .eslintrc.json src",
     "lint:fix:src": "npx eslint --fix -c .eslintrc.json src"
   },
