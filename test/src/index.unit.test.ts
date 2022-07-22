@@ -1,4 +1,4 @@
-import getDummyJson from '../../src';
+import { getDummyJson } from '../../src';
 
 describe('Testing', () => {
   test('Should return message', () => {
