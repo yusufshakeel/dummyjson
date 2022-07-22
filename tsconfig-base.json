@@ -28,7 +28,6 @@
     "removeComments": true,
     "preserveConstEnums": true,
     "sourceMap": true,
-    "outDir": "lib/esm",
     "declarationDir": "lib/types"
   },
   "compileOnSave": false,
