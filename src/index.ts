@@ -1,12 +1,1 @@
-type dummyJson = {
-  message: string
-};
-
-/**
- * @return {dummyJson} Returns a dummy JSON.
- */
-export function getDummyJson(): dummyJson {
-  return {
-    message: 'Hello, World!'
-  };
-}
+export { getDummyJson } from './get-dummy-json';

@@ -27,7 +27,6 @@
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "sourceMap": true,
     "declarationDir": "lib/types"
   },
   "compileOnSave": false,
