@@ -5,7 +5,7 @@ type dummyJson = {
 /**
  * @return {dummyJson} Returns a dummy JSON.
  */
-export default function getDummyJson(): dummyJson {
+export function getDummyJson(): dummyJson {
   return {
     message: 'Hello, World!'
   };
