@@ -1,1 +1,14 @@
-export { getDummyJson } from './get-dummy-json';
+type dummyJson = {
+  message: string
+};
+
+/**
+ * @return {dummyJson} Returns a dummy JSON.
+ */
+export function getDummyJson(): dummyJson {
+  return {
+    message: 'Hello, World!'
+  };
+}
+
+export default getDummyJson;
