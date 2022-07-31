@@ -5,7 +5,8 @@
   "main": "lib/esm/index.js",
   "types": "lib/types/index.d.ts",
   "files": [
-    "lib/**/*"
+    "lib/**/*",
+    "!**/*.map"
   ],
   "exports": {
     "import": "./lib/esm/index.js",

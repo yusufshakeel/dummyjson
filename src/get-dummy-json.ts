@@ -10,3 +10,5 @@ export function getDummyJson(): dummyJson {
     message: 'Hello, World!'
   };
 }
+
+export default getDummyJson;
