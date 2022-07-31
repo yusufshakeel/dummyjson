@@ -1,6 +1,6 @@
 {
   "name": "this-is-dummy-json",
-  "version": "0.6.0",
+  "version": "0.7.0",
   "description": "This project generates random dummy json.",
   "main": "lib/esm/index.js",
   "types": "lib/types/index.d.ts",
